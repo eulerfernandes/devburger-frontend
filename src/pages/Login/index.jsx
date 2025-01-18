@@ -6,7 +6,6 @@ import {
   Title,
   Form,
   InputContainer,
-  Link,
   Button,
 } from './styles';
 
@@ -20,6 +19,7 @@ export function Login() {
       <RightContainer>
         <Title>
           Olá, seja bem vindo ao <span>Dev Burguer!</span>
+          <br />
           Acesse com seu <span>Login</span>e senha.
         </Title>
 
@@ -33,10 +33,11 @@ export function Login() {
             <label>Senha</label>
             <input type="password" />
           </InputContainer>
-          <Link>Esqueci minha senha.</Link>
           <Button>Entra</Button>
         </Form>
-        <Link>Não possui conta? Clique aqui</Link>
+        <p>
+          Não possui conta? <a>Clique aqui.</a>
+        </p>
       </RightContainer>
     </Container>
   );
