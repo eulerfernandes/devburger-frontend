@@ -59,7 +59,7 @@ export const Form = styled.form`
 `;
 
 export const Title = styled.h2`
-  font-family: 'Roboto', serif;
+  font-family: 'Road Rage', sans-serif;
   font-size: 40px;
   color: #ffff;
 
@@ -88,5 +88,3 @@ export const InputContainer = styled.div`
     color: #ffff;
   }
 `;
-
-export const Button = styled.button``;
